@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Population Record System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #d6d6d6;
+        }
+
+        /* h1,h2{ 
+            background-color: #000000;
+            color: #fafafa;
+            padding: 5px;
+            text-align: center;
+            text-shadow: 5px  5px 4px #0288d1;
+        }
+
+        form {
+            background-color: #cac4c4;
+            width: 40%;
+            padding: 20px;
+             margin: auto;
+            border-radius: 8px;
+            box-shadow: 8px 4px 8px rgb(16, 94, 167);
+            max-width: 500px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        input[type="text"],
+        select {
+            width: 60%;
+            padding: 8px;
+            margin-top: 4px;
+            margin-bottom: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        input[type="radio"] {
+            margin-right: 5px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #0288d1;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #026ca0;
+        }
+
+        table {
+            margin-top: 30px;
+            border-collapse: collapse;
+            width: 80%;
+            margin: auto;
+            background: #5babda;
+        }
+
+        th,
+        td {
+            padding: 10px;
+            border: 2px solid #ffffff;
+            text-align: center;
+        }
+
+        th {
+            background-color: #000000;
+            color: white;
+            text-align: center;
+        } */
+
+
+        /* .....DOM... */
+
+        /* .h2 {
+            color: #d33939;
+        }
+
+        .content {
+            background-color: #fff;
+            border: 1px solid #000000;
+            padding: 20px;
+            margin-bottom: 20px;
+            margin: 30px auto;
+            width: 50%;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        input[type="text"] {
+            width: 60%;
+            padding: 8px;
+            margin-top: 2px;
+            margin-bottom: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .render-output {
+            background-color: #ffffff;
+            border-left: 4px solid #0288d1;
+            padding: 10px;
+            margin-top: 8px;
+            font-family: monospace;
+            font-size: larger;
+            font-weight: 600;
+            white-space: pre-wrap;
+        } */
+
+
+
+        /* QUESTION 2 */
+/* 
+
+         #main-content {
+            width: 60%;
+            border-collapse: collapse;
+            margin: 20px auto;
+            font-family: Arial, sans-serif;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+  
+        #form-content {
+            background-color: #f9f9f9;
+        }
+
+        
+        td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+            font-size: 16px;
+        }
+
+      
+        #lastName {
+            background-color: #d1e7dd;
+            font-weight: bold;
+            color: #0f5132;
+        }
+
+        #email {
+            background-color: #cff4fc;
+            font-style: italic;
+            color: #055160;
+        }
+
+    
+        #main-content {
+            border: 2px solid #333;
+        } */
+    </style>
+</head>
+
+<body>
+
+    <!--  QUESTION # 4 -->
+    <!-- 
+    <h1>Enter Person Information</h1>
+    <form id="personForm">
+        <label>Name:
+            <input type="text" id="name" required>
+        </label>
+
+        <label>Gender:
+            <input type="radio" name="gender" value="Male" required> Male
+            <input type="radio" name="gender" value="Female"> Female
+            <input type="radio" name="gender" value="Other"> Other
+        </label>
+
+        <label>Address:
+            <input type="text" id="address" required>
+        </label>
+
+        <label>Education:
+            <select id="education">
+                <option value="Matric">Matric</option>
+                <option value="Intermediate">Intermediate</option>
+                <option value="Bachelor">Bachelor</option>
+                <option value="Master">Master</option>
+                <option value="PhD">PhD</option>
+            </select>
+        </label>
+
+        <label>Profession:
+            <select id="profession">
+                <option value="Student">Student</option>
+                <option value="Engineer">Engineer</option>
+                <option value="Doctor">Doctor</option>
+                <option value="Teacher">Teacher</option>
+                <option value="Other">Other</option>
+            </select>
+        </label>
+
+        <button type="submit">Save Record</button>
+    </form>
+
+    <h2>Saved Population Records</h2>
+    <table id="recordsTable">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Gender</th>
+                <th>Address</th>
+                <th>Education</th>
+                <th>Profession</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table> -->
+
+
+
+
+
+
+
+    <!-- ................  DOM  ...............      -->
+
+    <!--  QUESTION # 1 -->
+    <!-- 
+  <div id="form-content" class="content">
+      <label for="first-name">First Name</label>
+      <input type="text" id="first-name" />
+
+      <label for="last-name">Last Name</label>
+      <input type="text" id="last-name" />
+
+      <label for="email">Email</label>
+      <input type="text" id="email" />
+    </div>
+
+    <div id="main-content" class="content">
+      <p class="render">First Name : Pershan Nandlal</p>
+      <p class="render" id="lastName">Last Name: Bank</p>
+      <p class="render">Email : PershanNandlal@example.com</p>
+      <p class="render">Country : Pakistan</p>
+      <p class="render">Contact : 03341731234</p>
+    </div>
+
+  
+    <div class="content">
+      <h2 class="h2">Render Elements Output</h2>
+      <div id="renderOutput" class="render-output"></div>
+    </div>
+  </div> -->
+
+
+    <!--  QUESTION # 2 -->
+    <!-- <table id="main-content">
+        <tbody id="form-content">
+            <tr>
+                <td id="lastName">Smith</td>
+                <td id="firstName">John</td>
+                <td id="email">john.smith@example.com</td>
+            </tr>
+        </tbody>
+    </table>
+ -->
+
+
+
+    <script src="app.js"></script>
+
+
+</body>
+
+</html>
