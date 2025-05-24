@@ -1,0 +1,111 @@
+.image{
+height: 200px;
+width: 200px;
+display: block;
+object-fit: cover;
+} 
+
+
+body {
+font-family: Arial, sans-serif;
+padding: 30px;
+background-color: #f4f4f4;
+}
+.form-container {
+background: white;
+padding: 20px;
+max-width: 400px;
+margin: auto;
+border-radius: 8px;
+box-shadow: 0 0 10px #ccc;
+}
+input[type="text"], input[type="email"], input[type="password"] {
+width: 100%;
+padding: 8px;
+margin: 10px 0;
+border-radius: 4px;
+border: 1px solid #aaa;
+}
+button {
+padding: 10px 15px;
+background: #28a745;
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+} 
+.output {
+margin-top: 20px;
+background: #e9ecef;
+padding: 10px;
+border-radius: 5px;
+}*/
+
+/*  Questionc # 02  */
+
+
+.content {
+max-height: 60px;
+overflow: hidden;
+transition: max-height 0.3s ease;
+}
+.content.show {
+max-height: 500px; 
+}
+.read-more-btn {
+margin-top: 10px;
+background-color: #007bff;
+color: white;
+padding: 5px 10px;
+border: none;
+cursor: pointer;
+border-radius: 5px;
+} 
+
+
+
+body {
+font-family: Arial;
+padding: 20px;
+}
+
+table, th, td {
+border: 1px solid black;
+border-collapse: collapse;
+}
+
+th, td {
+padding: 8px 12px;
+}
+
+#editForm {
+display: none;
+margin-top: 20px;
+}
+
+input[type="text"], input[type="number"] {
+padding: 6px;
+margin: 4px;
+}
+
+button {
+padding: 6px 12px;
+}
+
+.hidden {
+display: none;
+} 
+
+
+
+
+/* Q # 5 */
+.btn9{
+    background-color: red;
+    color: white;
+}
+
+.btn8{
+ background-color: blue;
+ color: #ffffff;
+}
